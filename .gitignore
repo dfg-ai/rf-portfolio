@@ -24,6 +24,9 @@ Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
+# Electronics Desktop 用户配置（个人设置，不共享）
+ElectronicsDesktop2021.1/
+
 # IDE
 .vscode/
 .idea/

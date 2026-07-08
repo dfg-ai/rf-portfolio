@@ -2,10 +2,11 @@
 
 ## 背景
 
-- **目标**: 秋招射频/天线/电磁仿真工程师岗位
+- **目标**: 秋招射频/天线/电磁仿真工程师岗位（2026年9月）
 - **策略**: 以项目作品集 + 动手能力破局，用实际能力补学历短板
-- **时间线**: 2026年暑假（7-9月），9月秋招
+- **时间线**: 2026年暑假（7-9月）
 - **协作模式**: Claude Code AI 辅助 — 教学、设计、脚本、文档
+- **记忆系统**: `C:\Users\deng\.claude\projects\D--Program-Files-AnsysEM\memory\`
 
 ## 环境
 
@@ -17,17 +18,19 @@
 | ADS 2020 | `D:\Program Files\Keysight\ADS2020\` |
 | ADS 2025 U2 | `D:\Program Files\Keysight\ADS2025\` |
 
-## 项目目录结构
+## 目录结构
 
 ```
 C:\Users\deng\Documents\Ansoft\
-├── OptimTee.aedt          # T型波导功分器（参数化+优化，已完成）
-├── Tee3.aedt              # T型波导（双频+场可视化，已完成）
-├── Project3.aedt          # 微带结构 FR4+铜（已完成）
-├── Project2.aedt          # 螺旋天线（⚠️ 半成品，文件缺失！需重建）
+├── OptimTee.aedt          # ⚠️ 练手项目，不投入时间
+├── Tee3.aedt              # ⚠️ 练手项目
+├── Project3.aedt          # ⚠️ 练手项目
+├── Project2.aedtresults/  # ⚠️ 练手残留（.aedt 已丢失）
 ├── PersonalLib/           # 个人材料库
 ├── temp/                  # 临时文件
-└── CLAUDE.md              # 本文件
+├── templates/             # 项目笔记模板
+├── CLAUDE.md              # 本文件
+└── .gitignore
 ```
 
 ## 工作规范
@@ -44,8 +47,14 @@ C:\Users\deng\Documents\Ansoft\
 
 ### 每个完成项目必须产出
 1. **.aedt 文件** — 完整可求解
-2. **报告** — 设计目标、方法、过程、结果、结论
+2. **报告** — 使用 `templates/project_note_template.md`，涵盖设计目标→方法→结果→结论
 3. **脚本**（如有自动化价值）— IronPython 或 CPython
+
+## 当前状态
+
+- **Phase**: 基础搭建完成，待开始第一个正式作品
+- **下一个决策**: 选第一个项目方向（微带贴片天线 / Wilkinson功分器 / Vivaldi天线 / 带通滤波器）
+- **记忆文件**: 7个 memory 文件已建立，MEMORY.md 索引已更新
 
 ## 常用命令
 
@@ -63,16 +72,9 @@ C:\Users\deng\Documents\Ansoft\
 & "D:\Program Files\AnsysEM\AnsysEM21.1\Win64\ansysedt.exe" -RunScript script.py
 ```
 
-## 学习路线（四阶段）
-
-1. **Phase 1 基础** (1-2周): 跑通现有项目，理解每个操作步骤，建立 Git 管理
-2. **Phase 2 深入** (3-6周): HFSS/Maxwell/SIwave 模块逐个攻克
-3. **Phase 3 自动化** (7-12周): IronPython 脚本库、参数化模板、批量求解
-4. **Phase 4 进阶**: ADS-HFSS 联合仿真、多物理场
-
 ## Claude 的角色
 
-- **教师**: 解释概念、引导操作、答疑
+- **教师**: 解释概念、引导操作、答疑（做中学优先）
 - **设计助手**: 辅助初始设计计算、优化建议
 - **脚本工程师**: 编写自动化脚本
 - **文档助手**: 生成报告框架、整理笔记
@@ -83,3 +85,4 @@ C:\Users\deng\Documents\Ansoft\
 - 暑假时间窗口有限（7月初到9月）
 - 学历是短板，作品集和动手能力必须突出
 - 每个项目都要能放进简历和面试展示
+- 练手项目不占用时间 — 直接做正式作品
