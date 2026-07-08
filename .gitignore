@@ -1,0 +1,29 @@
+# Ansys Electronics Desktop - 结果文件（体积大，不纳入版本管理）
+*.aedtresults/
+*.aedtresults
+
+# 锁文件
+*.lock
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+
+# 日志
+*.log
+OptiLog.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<KEYS>
+
+  <KEY ObjectName="LAPTOP-VVHQKAMV_user" RegObjectType="0">
+    <KEYS>
+      <KEY ObjectName="3D Editors" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="Preferences" RegObjectType="0">
+            <KEYS>
+              <KEY ObjectName="Geometry3D" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="CoverLines" Value="1" ValueType="4"/>
+                  <VALUE ObjectName="EditProperty" Value="1" ValueType="4"/>
+                  <VALUE ObjectName="PointEntryMode" Value="1" ValueType="4"/>
+                  <VALUE ObjectName="RCSAxisPositionMode" Value="1" ValueType="4"/>
+                  <VALUE ObjectName="ShowMeasureDialog" Value="1" ValueType="4"/>
+                </VALUES>
+              </KEY>
+            </KEYS>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="BaseDefPropPageSizes" RegObjectType="0">
+        <VALUES>
+          <VALUE ObjectName="MaterialBrowserPP_1" Value="392,176,1528,854" ValueType="2"/>
+          <VALUE ObjectName="MaterialBrowserPP_1\SelectedLibraries" Value="[sys] Materials" ValueType="2"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="Circuit Design" RegObjectType="0">
+        <VALUES>
+          <VALUE ObjectName="NexximRibbonSettings" Value="$begin ''&#xA;&#x9;SimulationGalleryIndex[5: 0, 2, 3, 4, 5]&#xA;$end ''&#xA;" ValueType="2"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="Desktop" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="Aliases" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="NullAliases" Value="" ValueType="2"/>
+              <VALUE ObjectName="ToReplace" Value="Ieee;Simplorer Elements\Ieee*Std;Simplorer Elements\Std*Basic_VHDLAMS;Simplorer Elements\Basic Elements VHDLAMS\Basic Elements VHDLAMS*Digital_Elements;Simplorer Elements\Digital Elements\Digital Elements*Transformations;Simplorer Elements\Tools\Transformations\Transformations*HEV_VHDLAMS;Simplorer Elements\HEV VHDLAMS\HEV VHDLAMS*automotive_vda;Simplorer Elements\VDALibs VHDLAMS\automotive_vda*example_boardnet;Simplorer Elements\VDALibs VHDLAMS\example_boardnet*example_ecar;Simplorer Elements\VDALibs VHDLAMS\example_ecar*fundamentals_vda;Simplorer Elements\VDALibs VHDLAMS\fundamentals_vda*hybrid_emc_vda;Simplorer Elements\VDALibs VHDLAMS\hybrid_emc_vda*megma;Simplorer Elements\VDALibs VHDLAMS\megma*modelica_rotational;Simplorer Elements\VDALibs VHDLAMS\modelica_rotational*modelica_thermal;Simplorer Elements\VDALibs VHDLAMS\modelica_thermal*modelica_translational;Simplorer Elements\VDALibs VHDLAMS\modelica_translational*spice2vhd;Simplorer Elements\VDALibs VHDLAMS\spice2vhd*spice2vhd_devices;Simplorer Elements\VDALibs VHDLAMS\spice2vhd_devices*aircraft_electrical_vhdlams;Simplorer Elements\Aircraft Electrical VHDLAMS\Aircraft Electrical VHDLAMS*power_system_vhdlams;Simplorer Elements\Power System VHDLAMS\Power System VHDLAMS" ValueType="2"/>
+            </VALUES>
+          </KEY>
+          <KEY ObjectName="ComponentBrowserVisibility" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="desktop:HFSS:3D Modeler" Value="1" ValueType="4"/>
+            </VALUES>
+          </KEY>
+          <KEY ObjectName="Materials" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="IncludeProjectDefs" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ShowAllLibs" Value="0" ValueType="4"/>
+            </VALUES>
+          </KEY>
+          <KEY ObjectName="Settings" RegObjectType="0">
+            <KEYS>
+              <KEY ObjectName="CompChooserOptions" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="SFavorites" Value="R:Simplorer Elements\Basic Elements\Circuit\Passive Elements;L:Simplorer Elements\Basic Elements\Circuit\Passive Elements;C:Simplorer Elements\Basic Elements\Circuit\Passive Elements;D:Simplorer Elements\Basic Elements\Circuit\Semiconductors System Level;E:Simplorer Elements\Basic Elements\Circuit\Sources;AM:Simplorer Elements\Basic Elements\Measurement\Electrical;VM:Simplorer Elements\Basic Elements\Measurement\Electrical" ValueType="2"/>
+                </VALUES>
+              </KEY>
+              <KEY ObjectName="ComponentBrowserStorage" RegObjectType="0">
+                <KEYS>
+                  <KEY ObjectName="desktop:HFSS:3D Modeler" RegObjectType="0">
+                    <KEYS>
+                      <KEY ObjectName="ExpandedNodes2" RegObjectType="0">
+                        <VALUES>
+                          <VALUE ObjectName="Item0" Value="False,HFSS Components" ValueType="2"/>
+                          <VALUE ObjectName="NumItems" Value="1" ValueType="4"/>
+                        </VALUES>
+                      </KEY>
+                      <KEY ObjectName="Favorites" RegObjectType="0">
+                        <VALUES>
+                          <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                        </VALUES>
+                      </KEY>
+                      <KEY ObjectName="MRU" RegObjectType="0">
+                        <VALUES>
+                          <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                        </VALUES>
+                      </KEY>
+                    </KEYS>
+                  </KEY>
+                </KEYS>
+              </KEY>
+              <KEY ObjectName="CustomColors" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="CustomColors" Value="'16 Custom Colors' 9408431 9412527 9416623 9416607 9416593 10465167 11513743 11509647 11505551 11505567 11505583 10457007 0 0 0 0" ValueType="2"/>
+                </VALUES>
+              </KEY>
+              <KEY ObjectName="Optimetrics" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="TuningBrowseSnapAll" Value="0" ValueType="4"/>
+                </VALUES>
+              </KEY>
+              <KEY ObjectName="PrinterDefault" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="PrinterOrientation" Value="1" ValueType="4"/>
+                </VALUES>
+              </KEY>
+              <KEY ObjectName="ProjectOptions" RegObjectType="0">
+                <KEYS>
+                  <KEY ObjectName="EnabledBetaOptions" RegObjectType="0">
+                    <VALUES>
+                      <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                    </VALUES>
+                  </KEY>
+                </KEYS>
+                <VALUES>
+                  <VALUE ObjectName="AutoSaveInterval" Value="10" ValueType="4"/>
+                  <VALUE ObjectName="CircuitEnvironment" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="DoAutoSave" Value="1" ValueType="4"/>
+                  <VALUE ObjectName="InsertDesignOnNewProject" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="InsertedDesignType" Value="HFSS" ValueType="2"/>
+                  <VALUE ObjectName="LastActiveNode" Value="HFSS/Boundary Assignment" ValueType="2"/>
+                  <VALUE ObjectName="ProductImprovementOptStatus" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="UsePPELicensing" Value="0" ValueType="4"/>
+                </VALUES>
+              </KEY>
+              <KEY ObjectName="UI" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="CurrentUI" Value="Default" ValueType="2"/>
+                </VALUES>
+              </KEY>
+            </KEYS>
+            <VALUES>
+              <VALUE ObjectName="windowPos" Value="0 3 0 0 -1 -1 288 153 1632 867" ValueType="2"/>
+            </VALUES>
+          </KEY>
+          <KEY ObjectName="ShowHiddenProps" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="Attribute" Value="0" ValueType="4"/>
+              <VALUE ObjectName="Attributes" Value="0" ValueType="4"/>
+              <VALUE ObjectName="Command" Value="0" ValueType="4"/>
+              <VALUE ObjectName="Local Variables" Value="1" ValueType="4"/>
+              <VALUE ObjectName="Marker" Value="0" ValueType="4"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+        <VALUES>
+          <VALUE ObjectName="ColorScheme" Value="Silver" ValueType="2"/>
+          <VALUE ObjectName="InstallationDirectory" Value="D:\Program Files\AnsysEM\AnsysEM21.1\Win64" ValueType="2"/>
+          <VALUE ObjectName="LastConfig" Value="All" ValueType="2"/>
+          <VALUE ObjectName="ProjectDirectory" Value="C:\Users\deng\Documents\Ansoft" ValueType="2"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="DialogGeometry" RegObjectType="0">
+        <VALUES>
+          <VALUE ObjectName="Driven Solution Setup" Value="475,0,1268,1102" ValueType="2"/>
+          <VALUE ObjectName="Edit Frequency Sweep" Value="594,178,1327,843" ValueType="2"/>
+          <VALUE ObjectName="MaterialPropSheet_1" Value="370,99,1550,922" ValueType="2"/>
+          <VALUE ObjectName="Wave Port" Value="1092,138,1849,875" ValueType="2"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="FieldsPostProcessor" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="ArrowSettings" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="ArrowType" Value="1" ValueType="4"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="Geometry3D" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="HistoryTreeView" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="ViewWidth" Value="224" ValueType="4"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="HFSS" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="MeshSetup" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="AllowPhiForLayeredGeometry" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ApplyCurvilinear" Value="0" ValueType="4"/>
+              <VALUE ObjectName="CurvedSurfaceApproxChoice" Value="0" ValueType="4"/>
+              <VALUE ObjectName="DynamicSurfaceResolution" Value="0" ValueType="4"/>
+              <VALUE ObjectName="MeshMethod" Value="Auto" ValueType="2"/>
+              <VALUE ObjectName="SliderMeshSettings" Value="5" ValueType="4"/>
+              <VALUE ObjectName="UseAlternativeMeshMethodsAsFallBack" Value="1" ValueType="4"/>
+              <VALUE ObjectName="UseFlexMeshing" Value="0" ValueType="4"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="Hfss" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="Preferences" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="AllowMaterialOverride" Value="0" ValueType="4"/>
+              <VALUE ObjectName="AutoAssignTerminalsOnPorts" Value="1" ValueType="4"/>
+              <VALUE ObjectName="AutoOpen" Value="0" ValueType="4"/>
+              <VALUE ObjectName="AutoOpenBoundnary" Value="0" ValueType="4"/>
+              <VALUE ObjectName="AverageSarMethod" Value="0" ValueType="2"/>
+              <VALUE ObjectName="BroadbandFreqOption" Value="0" ValueType="4"/>
+              <VALUE ObjectName="CalculateLossyDielectrics" Value="0" ValueType="4"/>
+              <VALUE ObjectName="DefaultSolverPriority" Value="0" ValueType="4"/>
+              <VALUE ObjectName="DeleteVariationsImmediately" Value="0" ValueType="4"/>
+              <VALUE ObjectName="EnableOptimetricsDistributionUsingDSOLicense" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ExportAfterSolve" Value="0" ValueType="4"/>
+              <VALUE ObjectName="ExportDir" Value="" ValueType="2"/>
+              <VALUE ObjectName="HPCLicenseType" Value="pack" ValueType="2"/>
+              <VALUE ObjectName="MassOfTissue" Value="1.000000" ValueType="2"/>
+              <VALUE ObjectName="MaterialDensity" Value="1.000000" ValueType="2"/>
+              <VALUE ObjectName="MaxNumFreqForBroadband" Value="5" ValueType="4"/>
+              <VALUE ObjectName="MemLimitHard" Value="0" ValueType="4"/>
+              <VALUE ObjectName="MemLimitSoft" Value="0" ValueType="4"/>
+              <VALUE ObjectName="NumberOfProcessors" Value="1" ValueType="4"/>
+              <VALUE ObjectName="NumberOfProcessorsDistributed" Value="1" ValueType="4"/>
+              <VALUE ObjectName="OpenIGP" Value="0" ValueType="4"/>
+              <VALUE ObjectName="OpenIGP_dir" Value="-z" ValueType="2"/>
+              <VALUE ObjectName="OpenOpFreq" Value="1GHz" ValueType="2"/>
+              <VALUE ObjectName="OpenRegionBoundary" Value="0" ValueType="4"/>
+              <VALUE ObjectName="PasteAssignmentsWithGeometry" Value="1" ValueType="4"/>
+              <VALUE ObjectName="PerformMinimalValidation" Value="0" ValueType="4"/>
+              <VALUE ObjectName="PortValidationSetting" Value="0" ValueType="4"/>
+              <VALUE ObjectName="Save Adaptive support files" Value="0" ValueType="4"/>
+              <VALUE ObjectName="SaveBeforeSolving" Value="1" ValueType="4"/>
+              <VALUE ObjectName="SaveOptimetricsFields" Value="0" ValueType="4"/>
+              <VALUE ObjectName="SolutionType" Value="0" ValueType="4"/>
+              <VALUE ObjectName="SolveDifferentialOnly" Value="0" ValueType="4"/>
+              <VALUE ObjectName="SolveInsideThreshold" Value="100000.000000sie" ValueType="2"/>
+              <VALUE ObjectName="UseAdvancedDCExtrapolation" Value="0" ValueType="4"/>
+              <VALUE ObjectName="UseAlphaNumericMatrixSortOrder" Value="1" ValueType="4"/>
+              <VALUE ObjectName="UseAutoDCThickness" Value="1" ValueType="4"/>
+              <VALUE ObjectName="UseFerriteMaterials" Value="1" ValueType="4"/>
+              <VALUE ObjectName="UsePowerS" Value="0" ValueType="4"/>
+              <VALUE ObjectName="UseWizard" Value="1" ValueType="4"/>
+              <VALUE ObjectName="VisualizeBndsOnGeometry" Value="1" ValueType="4"/>
+              <VALUE ObjectName="VoxelSize" Value="1.000000" ValueType="2"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="Machine Editor" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="Preferences" RegObjectType="0">
+            <KEYS>
+              <KEY ObjectName="Machine" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="WireSetting" Value="American" ValueType="2"/>
+                  <VALUE ObjectName="WireSettingLibType" Value="0" ValueType="4"/>
+                </VALUES>
+              </KEY>
+            </KEYS>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="Model Editors" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="ModelicaModel" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="LoadEnvPackages" Value="" ValueType="2"/>
+              <VALUE ObjectName="LoadInstallPackages" Value="D:/Program Files/AnsysEM/AnsysEM21.1/Win64/common/Modelica/ThirdParty/MSL/Modelica/package.mo;" ValueType="2"/>
+              <VALUE ObjectName="LoadLibrariesAtStartup" Value="0" ValueType="4"/>
+              <VALUE ObjectName="LoadUserPackages" Value="" ValueType="2"/>
+              <VALUE ObjectName="Overwrite from Diagram" Value="1" ValueType="4"/>
+              <VALUE ObjectName="Rotate propDisplays on component rotation" Value="0" ValueType="4"/>
+              <VALUE ObjectName="ShowDiagramTabDefault" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ShowModelInterfacesDlg" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ShowPinNames" Value="0" ValueType="4"/>
+              <VALUE ObjectName="ShowUpdateComponentDlg" Value="1" ValueType="4"/>
+              <VALUE ObjectName="UnloadEnvPackages" Value="" ValueType="2"/>
+              <VALUE ObjectName="UnloadInstallPackages" Value="" ValueType="2"/>
+              <VALUE ObjectName="UnloadUserPackages" Value="" ValueType="2"/>
+              <VALUE ObjectName="Warn User before Compile" Value="1" ValueType="4"/>
+              <VALUE ObjectName="Zoom with mouse wheel" Value="1" ValueType="4"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+        <VALUES>
+          <VALUE ObjectName="EncryptionResources" Value="" ValueType="2"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="Optimetrics" RegObjectType="0">
+        <VALUES>
+          <VALUE ObjectName="LastFullYRange" Value="1" ValueType="4"/>
+          <VALUE ObjectName="LastFullZRange" Value="0" ValueType="4"/>
+          <VALUE ObjectName="LastGoodInludeLearningPoints" Value="1" ValueType="4"/>
+          <VALUE ObjectName="LastGoodInludeVerificationPoints" Value="1" ValueType="4"/>
+          <VALUE ObjectName="LastInputVar1" Value="0" ValueType="4"/>
+          <VALUE ObjectName="LastInputVar2" Value="1" ValueType="4"/>
+          <VALUE ObjectName="LastResponsePlot" Value="6" ValueType="4"/>
+          <VALUE ObjectName="LastResponsePlotMode" Value="1" ValueType="4"/>
+          <VALUE ObjectName="LastSurfaceOutputParamIdx" Value="0" ValueType="4"/>
+          <VALUE ObjectName="LastXResolution" Value="50" ValueType="4"/>
+          <VALUE ObjectName="LastYResolution" Value="50" ValueType="4"/>
+          <VALUE ObjectName="SensitivityCurveXAxis" Value="0" ValueType="4"/>
+          <VALUE ObjectName="ShowAdvanceOptions" Value="0" ValueType="4"/>
+          <VALUE ObjectName="ShowAllVarColumn" Value="0" ValueType="4"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="ReporterUI" RegObjectType="0">
+        <VALUES>
+          <VALUE ObjectName="CreateReportDlgRect" Value="275,196,1035,804" ValueType="2"/>
+          <VALUE ObjectName="OutputVariablesDlgRect" Value="0,0,718,691" ValueType="2"/>
+          <VALUE ObjectName="UpdateInRealTime" Value="1" ValueType="4"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="Schematic" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="Preferences" RegObjectType="0">
+            <VALUES>
+              <VALUE ObjectName="AutoWireNameSetup" Value="AutoWireNameSetup('A', 0, 1, true, 0)" ValueType="2"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="Twin Builder" RegObjectType="0">
+        <VALUES>
+          <VALUE ObjectName="Favorites" Value="1" ValueType="4"/>
+          <VALUE ObjectName="MODELICAPATH" Value="" ValueType="2"/>
+        </VALUES>
+      </KEY>
+      <KEY ObjectName="View3D" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="DefaultAttributesR18" RegObjectType="0">
+            <KEYS>
+              <KEY ObjectName="AxisLabelFont" RegObjectType="0">
+                <VALUES>
+                  <VALUE ObjectName="charset" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="clipprecision" Value="48" ValueType="4"/>
+                  <VALUE ObjectName="escapement" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="facename" Value="Arial" ValueType="2"/>
+                  <VALUE ObjectName="height" Value="-18" ValueType="4"/>
+                  <VALUE ObjectName="italic" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="orientation" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="outprecision" Value="7" ValueType="4"/>
+                  <VALUE ObjectName="pitchandfamily" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="quality" Value="6" ValueType="4"/>
+                  <VALUE ObjectName="strikeout" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="underline" Value="0" ValueType="4"/>
+                  <VALUE ObjectName="weight" Value="400" ValueType="4"/>
+                  <VALUE ObjectName="width" Value="0" ValueType="4"/>
+                </VALUES>
+              </KEY>
+            </KEYS>
+            <VALUES>
+              <VALUE ObjectName="AmbientCol" Value="9671571" ValueType="4"/>
+              <VALUE ObjectName="AxisLabelSize" Value="20" ValueType="4"/>
+              <VALUE ObjectName="AxisLineWidth" Value="2" ValueType="4"/>
+              <VALUE ObjectName="ColorKeyBkgColor" Value="16777215" ValueType="4"/>
+              <VALUE ObjectName="ColorKeyTxtColor" Value="0" ValueType="4"/>
+              <VALUE ObjectName="DeEmphasisValue" Value="0.900000" ValueType="2"/>
+              <VALUE ObjectName="DistantLightColor0" Value="0.4 0.4 0.4" ValueType="2"/>
+              <VALUE ObjectName="DistantLightColor1" Value="0.4 0.4 0.4" ValueType="2"/>
+              <VALUE ObjectName="DistantLightColor2" Value="0.4 0.4 0.4" ValueType="2"/>
+              <VALUE ObjectName="DistantLightColor3" Value="0.4 0.4 0.4" ValueType="2"/>
+              <VALUE ObjectName="DistantLightPosition0" Value="0 -1 -0.15" ValueType="2"/>
+              <VALUE ObjectName="DistantLightPosition1" Value="-0.6 0.1 -0.5" ValueType="2"/>
+              <VALUE ObjectName="DistantLightPosition2" Value="0.5 0.1 -0.5" ValueType="2"/>
+              <VALUE ObjectName="DistantLightPosition3" Value="0.2 0.4 1" ValueType="2"/>
+              <VALUE ObjectName="DistantLightsNumber" Value="4" ValueType="4"/>
+              <VALUE ObjectName="DragOptimization" Value="0" ValueType="4"/>
+              <VALUE ObjectName="EmphasizeSelection" Value="1" ValueType="4"/>
+              <VALUE ObjectName="GradualViewChangeAnimation" Value="1" ValueType="4"/>
+              <VALUE ObjectName="GradualViewChangeAnimationDuration" Value="500" ValueType="4"/>
+              <VALUE ObjectName="HasSelectionTransparency" Value="1" ValueType="4"/>
+              <VALUE ObjectName="IsPlainBackground" Value="1" ValueType="4"/>
+              <VALUE ObjectName="LowerBakColor" Value="11711154" ValueType="4"/>
+              <VALUE ObjectName="MMBDragMode" Value="0" ValueType="4"/>
+              <VALUE ObjectName="NumLevels" Value="15" ValueType="4"/>
+              <VALUE ObjectName="PanKeys" Value="4" ValueType="4"/>
+              <VALUE ObjectName="PlainBakColor" Value="16777215" ValueType="4"/>
+              <VALUE ObjectName="Projection" Value="Orthographic" ValueType="2"/>
+              <VALUE ObjectName="RotateKeys" Value="65536" ValueType="4"/>
+              <VALUE ObjectName="RotationMode" Value="0" ValueType="4"/>
+              <VALUE ObjectName="SelectionTransparency" Value="0.100000" ValueType="2"/>
+              <VALUE ObjectName="SelectionVisible" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ShowLogo" Value="0" ValueType="4"/>
+              <VALUE ObjectName="UpperBakColor" Value="6684672" ValueType="4"/>
+              <VALUE ObjectName="UseLighting" Value="1" ValueType="4"/>
+              <VALUE ObjectName="ViewDirn" Value="-0.9 -0.3 -0.6 0 0 1" ValueType="2"/>
+              <VALUE ObjectName="XaxisColor" Value="263423" ValueType="4"/>
+              <VALUE ObjectName="YaxisColor" Value="166914" ValueType="4"/>
+              <VALUE ObjectName="ZaxisColor" Value="14444352" ValueType="4"/>
+              <VALUE ObjectName="ZoomKeys" Value="65540" ValueType="4"/>
+              <VALUE ObjectName="ZoomStepAsHeightPercent" Value="5" ValueType="4"/>
+            </VALUES>
+          </KEY>
+        </KEYS>
+      </KEY>
+      <KEY ObjectName="desktop" RegObjectType="0">
+        <KEYS>
+          <KEY ObjectName="WindowConfigData" RegObjectType="0">
+            <KEYS>
+              <KEY ObjectName="PropertyDlg" RegObjectType="0">
+                <KEYS>
+                  <KEY ObjectName="StandardPropTab" RegObjectType="0">
+                    <KEYS>
+                      <KEY ObjectName="Attribute" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;80" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;567" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="Description1;120" ValueType="2"/>
+                              <VALUE ObjectName="Item5" Value="Read-only1;70" ValueType="2"/>
+                              <VALUE ObjectName="Item6" Value="1021" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="7" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Attributes" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;80" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;773" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Description1;120" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="1021" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="4" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Command" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;80" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;641" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="Description1;120" ValueType="2"/>
+                              <VALUE ObjectName="Item5" Value="1021" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="6" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Local Variables" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;80" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;315" ValueType="2"/>
+                              <VALUE ObjectName="Item10" Value="Nominal Value1;94" ValueType="2"/>
+                              <VALUE ObjectName="Item11" Value="Min1;94" ValueType="2"/>
+                              <VALUE ObjectName="Item12" Value="Unit2;44" ValueType="2"/>
+                              <VALUE ObjectName="Item13" Value="Max1;94" ValueType="2"/>
+                              <VALUE ObjectName="Item14" Value="Unit3;44" ValueType="2"/>
+                              <VALUE ObjectName="Item15" Value="Include2;50" ValueType="2"/>
+                              <VALUE ObjectName="Item16" Value="Nominal Value2;94" ValueType="2"/>
+                              <VALUE ObjectName="Item17" Value="Min2;94" ValueType="2"/>
+                              <VALUE ObjectName="Item18" Value="Unit4;44" ValueType="2"/>
+                              <VALUE ObjectName="Item19" Value="Max2;94" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item20" Value="Unit5;44" ValueType="2"/>
+                              <VALUE ObjectName="Item21" Value="Step1;94" ValueType="2"/>
+                              <VALUE ObjectName="Item22" Value="Unit6;44" ValueType="2"/>
+                              <VALUE ObjectName="Item23" Value="Include3;50" ValueType="2"/>
+                              <VALUE ObjectName="Item24" Value="Nominal Value3;94" ValueType="2"/>
+                              <VALUE ObjectName="Item25" Value="Min3;94" ValueType="2"/>
+                              <VALUE ObjectName="Item26" Value="Unit7;44" ValueType="2"/>
+                              <VALUE ObjectName="Item27" Value="Max3;94" ValueType="2"/>
+                              <VALUE ObjectName="Item28" Value="Unit8;44" ValueType="2"/>
+                              <VALUE ObjectName="Item29" Value="Initial Disp.1;94" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item30" Value="Unit9;44" ValueType="2"/>
+                              <VALUE ObjectName="Item31" Value="Include4;50" ValueType="2"/>
+                              <VALUE ObjectName="Item32" Value="Nominal Value4;94" ValueType="2"/>
+                              <VALUE ObjectName="Item33" Value="Distribution1;94" ValueType="2"/>
+                              <VALUE ObjectName="Item34" Value="Distribution Criteria1;340" ValueType="2"/>
+                              <VALUE ObjectName="Item35" Value="1021" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="Type1;100" ValueType="2"/>
+                              <VALUE ObjectName="Item5" Value="Description1;120" ValueType="2"/>
+                              <VALUE ObjectName="Item6" Value="Read-only1;70" ValueType="2"/>
+                              <VALUE ObjectName="Item7" Value="Hidden1;70" ValueType="2"/>
+                              <VALUE ObjectName="Item8" Value="Sweep1;70" ValueType="2"/>
+                              <VALUE ObjectName="Item9" Value="Include1;50" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="36" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Marker" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;80" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;641" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="Description1;120" ValueType="2"/>
+                              <VALUE ObjectName="Item5" Value="1021" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="6" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                    </KEYS>
+                  </KEY>
+                </KEYS>
+              </KEY>
+              <KEY ObjectName="PropertyWnd" RegObjectType="0">
+                <KEYS>
+                  <KEY ObjectName="StandardPropTab" RegObjectType="0">
+                    <KEYS>
+                      <KEY ObjectName="Attribute" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Attributes" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;133" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="217" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Cartesian" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Command" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="217" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Coord System" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="201" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Data Filter" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;133" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="217" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Data Table" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;122" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="206" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Definition" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="FieldsQuantityFolder" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Grid" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;122" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="206" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="HFSS" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="172" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Marker" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="206" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Optimetrics" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="217" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Report" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;122" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Smith" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;131" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Trace" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;88" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="3" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                      <KEY ObjectName="Variables" RegObjectType="0">
+                        <KEYS>
+                          <KEY ObjectName="GridColumnWidths" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="Item0" Value="Name1;60" ValueType="2"/>
+                              <VALUE ObjectName="Item1" Value="Value1;30" ValueType="2"/>
+                              <VALUE ObjectName="Item2" Value="Unit1;40" ValueType="2"/>
+                              <VALUE ObjectName="Item3" Value="Evaluated Value1;84" ValueType="2"/>
+                              <VALUE ObjectName="Item4" Value="215" ValueType="2"/>
+                              <VALUE ObjectName="NumItems" Value="5" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                          <KEY ObjectName="PropertyFolderStates" RegObjectType="0">
+                            <VALUES>
+                              <VALUE ObjectName="NumItems" Value="0" ValueType="4"/>
+                            </VALUES>
+                          </KEY>
+                        </KEYS>
+                      </KEY>
+                    </KEYS>
+                  </KEY>
+                </KEYS>
+              </KEY>
+            </KEYS>
+          </KEY>
+        </KEYS>
+      </KEY>
+    </KEYS>
+  </KEY>
+
+</KEYS>
