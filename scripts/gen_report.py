@@ -102,10 +102,12 @@ def build_docx(title, subtitle, sections):
 
 
 if __name__ == "__main__":
-    # ── Report: PatchAntenna_v1 ──
-    report = {
-        "title": "微带贴片天线 @ 2.44GHz — 项目报告",
-        "subtitle": "2026-07-09 | v1 (Lp=28.6mm) | FR4 (εr=4.4, h=1.6mm)",
+    name = sys.argv[1] if len(sys.argv) > 1 else "PatchAntenna"
+    if name == "PatchAntenna":
+        report = {
+            "title": "微带贴片天线 @ 2.44GHz — 项目报告",
+            "subtitle": "2026-07-09 | v1 (Lp=28.6mm) | FR4 (εr=4.4, h=1.6mm)",
+            "output": "PatchAntenna_v1_Report.docx",
         "sections": [
             ("一、设计目标", [
                 "中心频率: 2.44 GHz (WiFi)",
@@ -160,8 +162,72 @@ if __name__ == "__main__":
         ],
     }
 
+    elif name == "Wilkinson":
+        report = {
+            "title": "Wilkinson 功分器 @ 2.44GHz — 项目报告",
+            "subtitle": "2026-07-13 | v1 | FR4 (εr=4.4, h=1.6mm) | 正交布局",
+            "output": "Wilkinson_v1_Report.docx",
+            "sections": [
+                ("一、设计目标", [
+                    "中心频率: 2.44 GHz",
+                    "S11 目标: < −10 dB  |  实际: −16.58 dB",
+                    "S21/S31 目标: −3 dB ± 1 dB  |  实际: −3.67 dB",
+                    "基板: FR4 (εr=4.4, tanδ=0.02, h=1.6mm, 整体 50×60mm)",
+                ]),
+                ("二、设计方法", [
+                    "1. Wilkinson 原理",
+                    "  分叉点处两个 50Ω 支路并联 = 25Ω → 需匹配到 50Ω",
+                    "  70.7Ω λ/4 变换器: Zin = Zq² / Zload = 70.7² / 50 = 100Ω",
+                    "  两个 100Ω 并联 = 50Ω → 输入匹配",
+                    "",
+                    "2. 设计参数",
+                    "  50Ω 线宽: 3.1 mm",
+                    "  70.7Ω 线宽: 1.3 mm (Zq = 50 × √2)",
+                    "  λ/4 长度: 17 mm (εeff ≈ 3.25 @ 2.44GHz)",
+                    "  隔离电阻: 100Ω (v2 加入)",
+                    "",
+                    "3. 布局 — 全正交 (无旋转)",
+                    "  输入 50Ω 竖线 → 分叉点 → 两段 70.7Ω 横线 → 输出 50Ω 竖线",
+                    "  ★ 关键决策: 取消 45° 旋转，采用全正交布局",
+                    "  原因: Lumped Port 要求端口面与走线垂直，旋转导致耦合失败",
+                ]),
+                ("三、优化历程", [
+                    "v1-v5 | 旋转45° | S11=−0.27dB | 旋转破坏端口-走线垂直关系",
+                    "v6    | 正交+Unite| S11=−16.6dB | ✅ 找到根因",
+                    "",
+                    "★ 核心教训: 旋转在 HFSS API 中是危险操作——",
+                    "  2D 矩形旋转后，Lumped Port 积分线还在原位，",
+                    "  端口面与走线不再垂直 → 全反射。",
+                    "  解决方案: 用横平竖直布局 + Unite 保证连接。",
+                ]),
+                ("四、最终结果", [
+                    "S11:      −16.58 dB       🟢 匹配优秀",
+                    "S21:      −3.67 dB        🟢 等分 (与 S31 一致)",
+                    "S31:      −3.67 dB        🟢 等分 (与 S21 一致)",
+                    "S23:      −7.59 dB        🟡 无隔离电阻",
+                    "",
+                    "额外损耗 0.67 dB: FR4 介质损耗 (tanδ=0.02) + 导体损耗 + 结不连续性",
+                    "与贴片天线同频段 (2.44GHz)、同基板 (FR4)，形成作品集系列",
+                ]),
+                ("五、结论", [
+                    "[✓] S11 优秀 (−16.58 dB)",
+                    "[✓] 功率等分 (S21=S31=−3.67 dB)",
+                    "[✓] 与贴片天线同频段，形成系列",
+                    "[△] 隔离度待改善 — v2 优化隔离电阻布局",
+                ]),
+                ("六、面试要点", [
+                    "1. 设计了一个 2.44GHz Wilkinson 功分器：λ/4 70.7Ω 阻抗变换，",
+                    "   全正交布局，Unite 保证电气连接。",
+                    "2. S11=−16.6dB，功率等分 −3.67dB/每路，与上一个贴片天线同频同基板。",
+                    "3. 关键理解：Wilkinson 的核心是 λ/4 变换 + 隔离电阻；",
+                    "   工程上，Lumped Port 与走线的垂直关系是仿真成败的关键约束。",
+                ]),
+            ],
+        }
+
+    output_file = report.pop("output")
     files = build_docx(**report)
-    output = os.path.join(DESKTOP, "PatchAntenna_v1_Report.docx")
+    output = os.path.join(DESKTOP, output_file)
     with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as zf:
         for path, data in files.items():
             zf.writestr(path, data)
