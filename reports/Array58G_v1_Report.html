@@ -1,0 +1,52 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>5.8GHz 4x4阵列 — 项目报告</title>
+<style>body{font-family:"Microsoft YaHei",sans-serif;max-width:800px;margin:40px auto;padding:0 20px;color:#222;line-height:1.8}
+h1{font-size:22pt;text-align:center;margin-bottom:4pt}
+.sub{text-align:center;color:#888;font-size:11pt;margin-bottom:28pt}
+h2{font-size:14pt;color:#1a5276;border-bottom:2px solid #2980b9;padding-bottom:4pt;margin-top:26pt}
+p{font-size:11pt;margin:5pt 0} table{border-collapse:collapse;width:100%;margin:10pt 0}
+td,th{border:1px solid #ccc;padding:5pt 10pt;font-size:11pt;text-align:left}
+th{background:#e8e8e8} .good{color:#27ae60;font-weight:bold}
+.footer{margin-top:36pt;padding-top:14pt;border-top:1px solid #ddd;color:#aaa;font-size:9pt;text-align:center}
+</style></head><body>
+<h1>5.8GHz 4×4 串-并混合阵列天线 — 项目报告</h1>
+<p class="sub">2026-07-18 | v1 | FR4 (h=1.6mm) | 4×4=16单元 | 增益8.4dBi</p>
+
+<h2>一、这是什么？</h2>
+<p>4列串馈线阵通过并联馈电网络组合成4×4=16单元的大阵列。串馈（列内）：信号沿一条线经过4个贴片，间距=λg保证同相。并馈（列间）：4列通过T型功分网路等功率激励。</p>
+<p><b>为什么重要：</b>这种串-并混合拓扑是真实相控阵雷达的基础——列内串馈（紧凑）、列间并馈（等幅）。</p>
+
+<h2>二、设计目标</h2>
+<table><tr><th>参数</th><th>目标</th><th>实际</th></tr>
+<tr><td>频率</td><td>5.8 GHz</td><td class="good">5.73 GHz (-1.2%)</td></tr>
+<tr><td>S11</td><td>&lt; -10 dB</td><td class="good">-18.2 dB</td></tr>
+<tr><td>增益</td><td>&gt; 8 dBi</td><td class="good">8.4 dBi</td></tr>
+<tr><td>波束</td><td>铅笔形双向窄</td><td class="good">X/Y双向窄</td></tr>
+</table>
+
+<h2>三、设计方法</h2>
+<p><b>串馈列：</b>每个1×4线阵中，贴片间距=λg≈25mm（导波波长）。信号走过一个λg相位转360°→相邻贴片同相激励→波束指向正上方。</p>
+<p><b>并馈行：</b>4列用并联T型网路统一馈电，所有列到Port1路径长度相等→等幅同相。</p>
+<p><b>关键参数：</b>Lp=10.50mm, 间距=25.0mm, Gd=3.50mm, 列距=26mm</p>
+
+<h2>四、优化历程</h2>
+<table><tr><th>轮次</th><th>Lp</th><th>λg</th><th>中心频率</th><th>S11</th></tr>
+<tr><td>v1</td><td>11.75</td><td>28.0</td><td>5.49 GHz</td><td>-23.6dB</td></tr>
+<tr><td>v2</td><td>11.14</td><td>26.5</td><td>5.57 GHz</td><td>-32dB</td></tr>
+<tr><td>v3</td><td>10.70</td><td>25.4</td><td>5.70 GHz</td><td>-17.6dB</td></tr>
+<tr><td>v4</td><td>10.50</td><td>25.0</td><td class="good">5.73 GHz</td><td class="good">-18.2dB</td></tr>
+</table>
+
+<h2>五、增益演化</h2>
+<table><tr><th>规模</th><th>增益</th></tr>
+<tr><td>单贴片</td><td>~5 dBi</td></tr>
+<tr><td>1×4 串馈线阵</td><td>4.1 dBi</td></tr>
+<tr><td>4×4 阵列</td><td class="good">8.4 dBi</td></tr>
+</table>
+
+<h2>六、面试要点</h2>
+<p>1. 设计了一个5.8GHz 4×4串-并混合阵列：串馈列（λg间距同相）+ 并馈行（T型等路径功分）</p>
+<p>2. 增益8.4dBi，铅笔形窄波束，S11=−18dB，16单元</p>
+<p>3. 关键认知：串馈间距=λg保证同相激励；混合拓扑是相控阵雷达的基础架构</p>
+
+<p class="footer">Project 5/6 · HFSS Portfolio</p>
+</body></html>

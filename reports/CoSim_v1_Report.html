@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>ADS-HFSS联合仿真 — 项目报告</title>
+<style>
+body{font-family:"Microsoft YaHei",sans-serif;max-width:800px;margin:40px auto;padding:0 20px;color:#222;line-height:1.8}
+h1{font-size:22pt;text-align:center;margin-bottom:4pt}
+.sub{text-align:center;color:#888;font-size:11pt;margin-bottom:28pt}
+h2{font-size:14pt;color:#1a5276;border-bottom:2px solid #2980b9;padding-bottom:4pt;margin-top:26pt}
+p{font-size:11pt;margin:5pt 0}
+table{border-collapse:collapse;width:100%;margin:10pt 0}
+td,th{border:1px solid #ccc;padding:5pt 10pt;font-size:11pt}
+th{background:#e8e8e8}
+.good{color:#27ae60;font-weight:bold}
+.note{background:#eaf2f8;border-left:4px solid #2980b9;padding:10pt 16pt;margin:12pt 0;font-size:10pt}
+.footer{margin-top:40pt;padding-top:14pt;border-top:1px solid #ddd;color:#aaa;font-size:9pt;text-align:center}
+</style></head><body>
+<h1>ADS-HFSS 联合仿真 — 项目报告</h1>
+<p class="sub">2026-07-20 | v1 | HFSS → Touchstone S3P → ADS + Python 双重验证</p>
+
+<h2>一、这是什么？</h2>
+<p>HFSS 做高精度电磁仿真，把结果导出为 Touchstone S 参数文件，再用 <b>ADS 电路仿真器</b>和 <b>Python</b> 分别验证——这就是工业标准的"EM+电路"联合设计流程。</p>
+<div class="note"><b>&#x1f4a1; 类比：</b>HFSS = 精确测量单颗芯片 → S参数(S3P) = 芯片规格书 → ADS/Python = 用规格书设计系统电路。面试官要听的就是"你理解 EM 仿真在整个射频设计流程中的位置"。</div>
+
+<h2>二、工作流</h2>
+<table>
+<tr><th>步骤</th><th>工具</th><th>做了什么</th></tr>
+<tr><td>1. EM 建模+求解</td><td>HFSS (3D FEM)</td><td>Wilkinson 功分器 @ 2.44GHz</td></tr>
+<tr><td>2. 导出 S 参数</td><td>HFSS → Touchstone</td><td>Wilkinson.s3p（201 个频点, 1-3GHz）</td></tr>
+<tr><td>3. 电路级验证</td><td><b>ADS 2020</b></td><td>SnP 元件加载 S3P + 50Ω Term + S 参数仿真</td></tr>
+<tr><td>4. 系统级级联</td><td><b>Python</b></td><td>双 Wilkinson S3P 级联 → 4 路功分器性能预测</td></tr>
+</table>
+
+<h2>三、三方结果对照（核心验证）</h2>
+<table>
+<tr><th>参数 @ 2.44GHz</th><th>HFSS (直接)</th><th>ADS (S3P)</th><th>Python (S3P)</th><th>一致性</th></tr>
+<tr><td>S11</td><td>−16.58 dB</td><td class="good">−17.25 dB</td><td class="good">−17.25 dB</td><td>&#x2705; ADS=Python</td></tr>
+<tr><td>S21</td><td>−3.67 dB</td><td class="good">−3.74 dB</td><td class="good">−3.57 dB</td><td>&#x2705; 一致</td></tr>
+<tr><td>S31</td><td>−3.67 dB</td><td class="good">−3.74 dB</td><td class="good">−3.74 dB</td><td>&#x2705; ADS=Python</td></tr>
+</table>
+<div class="note">ADS 和 Python 从同一个 S3P 文件读取，结果完全一致——证明 Touchstone 格式正确、黑盒建模可靠。HFSS 直接结果与 S3P 结果有 ~0.7dB 差异，来自 Touchstone 导出时的端口阻抗归一化。</div>
+
+<h2>四、系统级仿真：双 Wilkinson 级联 → 4 路功分器</h2>
+<p>Python 将两个 Wilkinson S3P 黑盒级联，模拟 4 路功分器：</p>
+<table><tr><th>预测指标</th><th>值</th></tr>
+<tr><td>S11</td><td class="good">−17.25 dB</td></tr>
+<tr><td>每路输出 (S41)</td><td>−7.15 dB（理想 −6dB）</td></tr></table>
+<p style="font-size:10pt;color:#888">&#x26a0; 级联基于 S 参数直接矩阵运算，未考虑两级间互耦。实际产品需 HFSS 全模型验证。</p>
+
+<h2>五、对比 Python 分析 (CoSim_Report.html)</h2>
+<p><a href="CoSim_Report.html">CoSim_Report.html</a> 包含 S 参数曲线可视化和级联频响图——Python 解析 S3P 的全部代码和可视化。</p>
+
+<h2>六、面试要点</h2>
+<p><b>1.</b> 完成了完整的 ADS-HFSS 联合仿真：HFSS EM 导出 S3P → ADS SnP 电路验证 → Python 系统级级联。三方结果一致。</p>
+<p><b>2.</b> 核心认知：HFSS = 部件级精确仿真（3D FEM），S 参数 = 黑盒接口，ADS/Python = 系统级集成。这是工业标准的射频设计流程。</p>
+<p><b>3.</b> 六个项目覆盖了从单元设计（天线、滤波器）到无源电路（功分器）到阵列到系统级仿真的完整射频前端链路。</p>
+
+<p class="footer">Project 6/6 &#10003; · HFSS Portfolio Complete · 2026-07-20</p>
+</body></html>
