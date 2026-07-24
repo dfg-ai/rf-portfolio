@@ -37,7 +37,7 @@ def lp(n,num,cx,cy):
 # ══════════════════════════════════════════════
 Hs=1.6; W50=3.1
 Wp=15.74; Lp=12.50; Gd=3.60; Gw=W50+1.0
-dx=25.0; dy=27.0
+dx=23.0; dy=27.0
 N_col=4; N_row=7   # 4 columns × 7 rows = 28 elements
 
 SubW = dx*(N_col-1) + Wp + 35
@@ -62,7 +62,9 @@ oDesign.ChangeProperty(
        ["NAME:WpVar", "PropType:=", "VariableProp",
         "UserDef:=", True, "Value:=", "%.4fmm"%Wp],
        ["NAME:dxVar", "PropType:=", "VariableProp",
-        "UserDef:=", True, "Value:=", "%.4fmm"%dx]]]])
+        "UserDef:=", True, "Value:=", "%.4fmm"%dx],
+       ["NAME:GdVar", "PropType:=", "VariableProp",
+        "UserDef:=", True, "Value:=", "%.4fmm"%Gd]]]])
 
 # ══════════════════════════════════════════════
 # 1. Substrate + Ground
