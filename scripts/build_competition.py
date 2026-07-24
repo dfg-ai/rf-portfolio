@@ -36,7 +36,7 @@ def lp(n,num,cx,cy):
 # PARAMETERS (proven: S11=-10dB, Gain=15.7dBi)
 # ══════════════════════════════════════════════
 Hs=1.6; W50=3.1
-Wp=15.74; Lp=12.50; Gd=4.10; Gw=W50+1.0
+Wp=15.74; Lp=12.50; Gd=3.60; Gw=W50+1.0
 dx=25.0; dy=27.0
 N_col=4; N_row=7   # 4 columns × 7 rows = 28 elements
 
